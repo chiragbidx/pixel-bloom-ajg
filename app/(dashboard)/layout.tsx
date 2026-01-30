@@ -25,9 +25,6 @@ export default function DashboardLayout({
         </Link>
         <Link href="/(dashboard)/activity">Activity</Link>
         <Link href="/(dashboard)/general">General</Link>
-        <Link href="/(dashboard)/crm">
-          <span role="img" aria-label="CRM">📇</span> CRM
-        </Link>
       </nav>
       <main style={{ flexGrow: 1, background: "#FFF" }}>{children}</main>
     </div>
